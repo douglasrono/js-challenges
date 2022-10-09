@@ -1,4 +1,4 @@
-function FirstFactorial(num) { 
+const FirstFactorial = (num) => { 
     return (num === 1 ? 1 : num * FirstFactorial(num - 1));
 }
    
